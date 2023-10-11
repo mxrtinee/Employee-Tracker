@@ -34,7 +34,9 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 ## Link to Google Drive
 
-  [Video Submission](https://drive.google.com/)
+  The following video shows an example of the application being used from the command line:
+
+  [![A video thumbnail shows the command-line employee management application with a play button overlaying the view.](./assets/images/Homework-Video-Thumbnail.png)](https://drive.google.com/)
 
   ## Screenshot
 
