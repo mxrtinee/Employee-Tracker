@@ -61,64 +61,45 @@ THEN I am prompted to select an employee to update and their new role and this i
 To install and use the Employee Tracker application and database, follow these steps:
 
 Clone the Repository:
-
-bash
-Copy code
 git clone https://github.com/your-username/employee-tracker.git
+
 Navigate to the Project Directory:
-
-bash
-Copy code
 cd employee-tracker
+
 Install Dependencies:
-
-bash
-Copy code
 npm install
-Database Setup:
 
+Database Setup:
 Make sure you have MySQL installed on your machine.
 
 Create a new database and run the schema.sql script to set up the database schema:
-
-bash
-Copy code
 mysql -u your-username -p < db/schema.sql
 Replace your-username with your MySQL username.
 
 If you'd like to populate sample data, you can run the seeds.sql script as well:
-
-bash
-Copy code
 mysql -u your-username -p < db/seeds.sql
-Connection Configuration:
 
+Connection Configuration:
 Open the server.js file in your text editor.
 
 Locate the following lines and adjust them with your database connection details:
-
-javascript
-Copy code
 host: 'localhost',
 user: 'your-username',
 password: 'your-password',
 database: 'employeetracker_db',
-Start the Application:
 
-bash
-Copy code
+Start the Application:
 npm start
+
 Now, the Employee Tracker application is installed and ready to use.
 
 ## Usage
 To use the Employee Tracker application, follow these steps:
 
 Run the application:
-
-bash
-Copy code
 npm start
-You will be presented with a menu of options, including viewing departments, roles, employees, adding departments, adding roles, adding employees, and updating an employee's role.
+
+Once the application starts, you will be presented with several options for managing employees within your company including viewing departments, roles, employees, adding departments, adding roles, adding employees, and updating an employee's role.
 
 Use the arrow keys to select an option and follow the prompts to interact with the database. For example, you can view all employees, add new employees, update roles, and more.
 
